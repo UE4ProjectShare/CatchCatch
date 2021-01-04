@@ -2,5 +2,15 @@
 	"FileVersion": 3,
 	"EngineAssociation": "{3E6DF89B-47A2-54FF-B4F6-D98F7D77F4E3}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "CatchCatch",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
